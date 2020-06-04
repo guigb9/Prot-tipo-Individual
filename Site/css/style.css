@@ -1,0 +1,48 @@
+body, ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 62.5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url(../img/bgq1.jpg);
+}
+.logo{
+    margin-left: 2.25%;
+}
+ .logo h1{
+    font-size: 2rem;
+    float: left;
+    color: white;
+}
+header{
+    background-color: #8B1A1A;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 5px solid black;
+}
+a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+ul{
+    background: none;
+    display: flex;
+    margin-right: 2.25%;
+}
+ul li{
+    background: none;
+    margin-left: 15px;
+}
+.logo h1 span{
+    color:	black;
+}
+.active{
+    color: white;
+}

@@ -1,0 +1,91 @@
+
+.conteudo{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 10%;
+    width: 100%;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 100%;
+}
+.conteudo1{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 0%;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.q1 img{
+    padding-top: 10%;
+    padding-bottom: 7%;
+    margin-left: 10%;
+    width: 80%;
+}
+.q2 img{
+    padding-top: 10%;
+    padding-bottom: 7%;
+    margin-left: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+.q3 img{
+    padding-top: 10%;
+    padding-bottom: 7%;
+    margin-left: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+.q4 img{
+    padding-top: 10%;
+    padding-bottom: 7%;
+    margin-left: 10%;
+    margin-left: 10%;
+    width: 80%;
+}
+.titulo_0{
+    text-align: center;
+}
+.q1:hover{
+    background-color: rgba( 0, 0, 0, 0.8);
+
+}
+.q2:hover{
+    background-color: rgba( 0, 0, 0, 0.8);
+}
+.q3:hover{
+    background-color: rgba( 0, 0, 0, 0.8);
+}
+.q4:hover{
+    background-color: rgba( 0, 0, 0, 0.8);
+}
+.titulo_0{
+    font-size: 1.5rem;
+    color: white;
+}
+.q1 .icone{
+    font-size: 70px;
+    float: left;
+}
+.posiccao{
+margin-top: 4.5%;
+position: absolute;
+}
+.posiccao:hover{
+    background-color: rgba( 255, 255, 255, 0.7);
+}
+.posiccao1{
+    margin-top: -19%;
+    position: absolute;
+    float: right;
+    width: 3%;
+    margin-left: 97%;
+}
+.posiccao1:hover{
+        background-color: rgba( 255, 255, 255, 0.7);
+}
+.posiccao1 .icone1{
+    float: right;
+    font-size: 70px;
+}

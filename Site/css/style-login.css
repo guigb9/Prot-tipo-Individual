@@ -1,0 +1,72 @@
+.quadro1{
+    margin-top: 10vh;
+    color: white;
+    width: 40%;
+    margin-left: 30%;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    text-align: center;
+}
+.quadro1 form{
+    width: 35vw;
+    margin-left: 2.5vw;
+    margin-bottom: 3vh;
+    text-align: left;
+}
+.quadro1 h1{
+    padding-top: 1vh;
+    height: 5vh;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+.quadro1 form input{
+    width: 95%;
+    height: 4vh;
+    margin-bottom: 1.5vh;
+    margin-top: 1.5vh;
+    background: none;
+    color: white;
+    border: #8B1A1A 2px solid;
+    border-radius: 2vh;
+}
+.quadro1 form button{
+    margin-left: 12.5vw;
+    width: 10vw;
+    height: 5vh;
+    padding: 0;
+    background: none;
+    color: white;
+    border: #8B1A1A 2px solid;
+    border-radius: 2vh;
+}
+form .esqueceu{
+    float: left;
+}
+.quadro1 a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5vh;
+    font-size: 1rem;
+    width: 100%;
+}
+.space{
+    height: 3vh;
+}
+#cadastro, #esqueceu{
+    display: none;
+}
+.quadro1 a:hover{
+    color: #8B1A1A ;
+}
+.quadro1 b{
+    margin-bottom: 1.5vh;
+    text-align: center;
+}
+.label{
+    text-align: left;
+}
+#email2, #cel{
+    width: auto;
+    display: block;
+}
